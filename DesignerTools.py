@@ -19,7 +19,7 @@ class Ui_HesapMakinesi(object):
         HesapMakinesi.setFocusPolicy(QtCore.Qt.NoFocus)
         HesapMakinesi.setAcceptDrops(False)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("../../../Downloads/icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         HesapMakinesi.setWindowIcon(icon)
         HesapMakinesi.setToolButtonStyle(QtCore.Qt.ToolButtonIconOnly)
         HesapMakinesi.setDocumentMode(False)
