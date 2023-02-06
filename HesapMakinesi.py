@@ -1,5 +1,5 @@
 from PyQt5 import QtWidgets
-from HesapMakinesiA import Ui_HesapMakinesi
+from DesignerTools import Ui_HesapMakinesi
 import sys
 
 class Window(QtWidgets.QMainWindow):
