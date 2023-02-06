@@ -1,13 +1,12 @@
 from PyQt5 import QtWidgets
-from PyQt5.QtWidgets import QTableWidgetItem
-from HesapMakinesiA import Ui_MainWindow
+from HesapMakinesiA import Ui_HesapMakinesi
 import sys
 
 class Window(QtWidgets.QMainWindow):
     def __init__(self):
         super(Window,self).__init__()
 
-        self.ui = Ui_MainWindow()
+        self.ui = Ui_HesapMakinesi()
         self.ui.setupUi(self)
         self.ui.Number0.clicked.connect(self.push0)
         self.ui.Number1.clicked.connect(self.push1)
@@ -30,16 +29,15 @@ class Window(QtWidgets.QMainWindow):
         
 
     def PushSonuc(self):
- 
-        equation = self.ui.EkranLabel.text()
+        Denklem = self.ui.EkranLabel.text()
  
         try:
-            ans = eval(equation)
+            Cevap = eval(Denklem)
  
-            self.ui.EkranLabel.setText(str(ans))
+            self.ui.EkranLabel.setText(str(Cevap))
  
         except:
-            self.ui.EkranLabel.setText("Wrong Input")
+            self.ui.EkranLabel.setText("Hatalı Giriş")
 
 
     def pusharti(self):
@@ -52,11 +50,11 @@ class Window(QtWidgets.QMainWindow):
     
     def pushcarpi(self):
                 text = self.ui.EkranLabel.text()
-                self.ui.EkranLabel.setText(text + " x ")
+                self.ui.EkranLabel.setText(text + " * ")
 
     def pushbol(self):
                 text = self.ui.EkranLabel.text()
-                self.ui.EkranLabel.setText(text + " ÷ ")
+                self.ui.EkranLabel.setText(text + " / ")
         
     def pushmod(self):
                 text = self.ui.EkranLabel.text()
@@ -68,44 +66,44 @@ class Window(QtWidgets.QMainWindow):
 
 
     def push0(self):
-                sender = self.ui.EkranLabel.text()
-                self.ui.EkranLabel.setText(sender + "0")
+                text = self.ui.EkranLabel.text()
+                self.ui.EkranLabel.setText(text + "0")
 
     def push1(self):
-                sender = self.ui.EkranLabel.text()
-                self.ui.EkranLabel.setText(sender + "1")
+                text = self.ui.EkranLabel.text()
+                self.ui.EkranLabel.setText(text + "1")
 
     def push2(self):
-                sender = self.ui.EkranLabel.text()
-                self.ui.EkranLabel.setText(sender + "2")
+                text = self.ui.EkranLabel.text()
+                self.ui.EkranLabel.setText(text + "2")
 
     def push3(self):
-                sender = self.ui.EkranLabel.text()
-                self.ui.EkranLabel.setText(sender + "3")
+                text = self.ui.EkranLabel.text()
+                self.ui.EkranLabel.setText(text + "3")
 
     def push4(self):
-                sender = self.ui.EkranLabel.text()
-                self.ui.EkranLabel.setText(sender + "4")
+                text = self.ui.EkranLabel.text()
+                self.ui.EkranLabel.setText(text + "4")
 
     def push5(self):
-                sender = self.ui.EkranLabel.text()
-                self.ui.EkranLabel.setText(sender + "5")
+                text = self.ui.EkranLabel.text()
+                self.ui.EkranLabel.setText(text + "5")
 
     def push6(self):
-                sender = self.ui.EkranLabel.text()
-                self.ui.EkranLabel.setText(sender + "6")
+                text = self.ui.EkranLabel.text()
+                self.ui.EkranLabel.setText(text + "6")
 
     def push7(self):
-                sender = self.ui.EkranLabel.text()
-                self.ui.EkranLabel.setText(sender + "7")
+                text = self.ui.EkranLabel.text()
+                self.ui.EkranLabel.setText(text + "7")
 
     def push8(self):
-                sender = self.ui.EkranLabel.text()
-                self.ui.EkranLabel.setText(sender + "8")
+                text = self.ui.EkranLabel.text()
+                self.ui.EkranLabel.setText(text + "8")
 
     def push9(self):
-                sender = self.ui.EkranLabel.text()
-                self.ui.EkranLabel.setText(sender + "9")
+                text = self.ui.EkranLabel.text()
+                self.ui.EkranLabel.setText(text + "9")
     
     def PushTemizle(self):
         # clearing the label text

@@ -1,17 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>HesapMakinesi</class>
+ <widget class="QMainWindow" name="HesapMakinesi">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
     <width>485</width>
-    <height>394</height>
+    <height>360</height>
    </rect>
   </property>
+  <property name="focusPolicy">
+   <enum>Qt::NoFocus</enum>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>HesapMakinesi</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../../Downloads/icon.png</normaloff>../../../Downloads/icon.png</iconset>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonIconOnly</enum>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="ButonSonuc">
@@ -22,6 +41,14 @@
       <width>62</width>
       <height>101</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #bdbebd;</string>
     </property>
     <property name="text">
      <string>Sonuç</string>
@@ -36,6 +63,14 @@
       <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #bdbebd;</string>
+    </property>
     <property name="text">
      <string>÷</string>
     </property>
@@ -48,6 +83,14 @@
       <width>81</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #bdbebd;</string>
     </property>
     <property name="text">
      <string>+</string>
@@ -62,6 +105,14 @@
       <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #bdbebd;</string>
+    </property>
     <property name="text">
      <string>×</string>
     </property>
@@ -74,6 +125,14 @@
       <width>81</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #bdbebd;</string>
     </property>
     <property name="text">
      <string>-</string>
@@ -88,6 +147,14 @@
       <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #bdbebd;</string>
+    </property>
     <property name="text">
      <string>7</string>
     </property>
@@ -100,6 +167,14 @@
       <width>62</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #bdbebd;</string>
     </property>
     <property name="text">
      <string>4</string>
@@ -114,6 +189,14 @@
       <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #bdbebd;</string>
+    </property>
     <property name="text">
      <string>1</string>
     </property>
@@ -126,6 +209,14 @@
       <width>62</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #bdbebd;</string>
     </property>
     <property name="text">
      <string>8</string>
@@ -140,6 +231,14 @@
       <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #bdbebd;</string>
+    </property>
     <property name="text">
      <string>5</string>
     </property>
@@ -152,6 +251,14 @@
       <width>62</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #bdbebd;</string>
     </property>
     <property name="text">
      <string>2</string>
@@ -166,6 +273,14 @@
       <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #bdbebd;</string>
+    </property>
     <property name="text">
      <string>3</string>
     </property>
@@ -178,6 +293,14 @@
       <width>62</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #bdbebd;</string>
     </property>
     <property name="text">
      <string>6</string>
@@ -192,6 +315,14 @@
       <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #bdbebd;</string>
+    </property>
     <property name="text">
      <string>9</string>
     </property>
@@ -204,6 +335,14 @@
       <width>62</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #bdbebd;</string>
     </property>
     <property name="text">
      <string>0</string>
@@ -218,6 +357,14 @@
       <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #bdbebd;</string>
+    </property>
     <property name="text">
      <string>.</string>
     </property>
@@ -230,6 +377,14 @@
       <width>62</width>
       <height>101</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #bdbebd;</string>
     </property>
     <property name="text">
      <string>Temizle</string>
@@ -244,6 +399,14 @@
       <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #bdbebd;</string>
+    </property>
     <property name="text">
      <string>%</string>
     </property>
@@ -252,16 +415,21 @@
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>30</y>
+      <y>20</y>
       <width>401</width>
-      <height>41</height>
+      <height>51</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
     </property>
     <property name="autoFillBackground">
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">border : 5px solid white; background : white;</string>
+     <string notr="true">border : 5px solid #fffff1; background : #fffff1;</string>
     </property>
     <property name="text">
      <string/>
